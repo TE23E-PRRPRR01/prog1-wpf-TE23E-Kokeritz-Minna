@@ -1,0 +1,18 @@
+25-02-03 13:54 Session started
+----------------------------------------
+13:54:47 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\.gitignore
+----------------------------------------
+13:58:45 Document switched to: c:\Users\minna.kokeritz\AppData\Roaming\Code\User\profiles\785745a5\settings.json
+----------------------------------------
+13:59:27 036:004 > ,
+"files.associations": {
+    "*.xaml": "xml"
+},
+"xml.fileAssociations": [
+    {
+        "pattern": "**/*.xaml",
+        "systemId": "https://raw.githubusercontent.com/karye/xamelot/refs/heads/master/syntax/xaml.xsd"
+    }
+],
+14:03:50 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\.vscode\csharp.code-snippets
+----------------------------------------

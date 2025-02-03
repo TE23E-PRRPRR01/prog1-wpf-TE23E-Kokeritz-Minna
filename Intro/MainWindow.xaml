@@ -1,0 +1,23 @@
+﻿<Window x:Class="Intro.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:Intro"
+    mc:Ignorable="d"
+    Title="First windowprogramm" Height="450" Width="800"
+    Background="#001f1c"
+    SizeToContent="WidthAndHeight">
+
+    <StackPanel Margin="10">
+        <Label Foreground="#1cff6b" FontSize="30" FontWeight="bold">Hello World</Label>
+        <Label
+            Foreground="#1cff6b">provar Xaml</Label>  
+        <StackPanel Orientation="Horizontal">
+            <Label Foreground="#1cff6b">Ange namn: </Label>  
+            <TextBox MinWidth="80"></TextBox>
+        </StackPanel>
+        <Button
+            Background="green" Foreground="white" FontSize="20" Padding="10">Klicka mig </Button>
+    </StackPanel>
+</Window>
