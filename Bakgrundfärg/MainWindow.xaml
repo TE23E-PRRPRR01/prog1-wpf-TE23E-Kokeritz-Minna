@@ -16,6 +16,6 @@
             <Button Margin="5" Click="KlickRöd"> RÖD </Button>
             <Button Margin="5" Click="KlickGrön"> GRÖN </Button>
             <Button Margin="5" Click="KlickBlå"> BLÅ</Button>
-            <Button Margin="5" Click="Klick('gul')">GUL</Button>
+            <Button Margin="5" Click="Klick" Name="Gul">GUL</Button>
         </StackPanel>
 </Window>

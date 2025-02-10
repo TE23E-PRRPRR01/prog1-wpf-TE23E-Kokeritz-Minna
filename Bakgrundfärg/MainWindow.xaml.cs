@@ -36,5 +36,9 @@ public partial class MainWindow : Window
         this.Background = Brushes.Blue;
     }
 
+    private void Klick(object sender, RoutedEventArgs e)
+    {
+        if(sender == "Gul") this.Background=Brushes.Yellow;
+    }
   
 }
