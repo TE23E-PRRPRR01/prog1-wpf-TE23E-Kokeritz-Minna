@@ -1,0 +1,6 @@
+25-02-12 13:48 Session started
+----------------------------------------
+14:03:21 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\AreaApp\MainWindow.xaml
+----------------------------------------
+14:03:25 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\AreaApp\MainWindow.xaml.cs
+----------------------------------------
