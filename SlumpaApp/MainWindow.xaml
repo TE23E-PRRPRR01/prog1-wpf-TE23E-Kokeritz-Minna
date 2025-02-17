@@ -27,7 +27,7 @@
             Click="Slumpa5" Background="Green">Slumpa 5!</Button>
         <!--        <TextBox Name="txbFlera2" IsReadOnly="True" TextAlignment="Center"
         FontSize="15"></TextBox>-->        
-        <ListBox Name="lxbFlera"></ListBox>
+        <ListBox Name="lxbFlera" HorizontalContentAlignment="Center" FontSize="15"></ListBox>
 
 
     </StackPanel>

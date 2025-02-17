@@ -1,0 +1,21 @@
+﻿<Window x:Class="TodoApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:TodoApp"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    SizeToContent="WidthAndHeight">
+
+    <StackPanel Margin="20">
+        <Label>Lägg till en ny uppgift:</Label>
+        <TextBox Name="txbUppgift"></TextBox>
+        <Button
+            Click="KlickLaggTill">Lägg till</Button>
+
+        <TextBlock Name="tblLista" Margin="10" TextWrapping="Wrap"></TextBlock>
+
+        <Button Click="KlickaRensa"> Rensa</Button>
+    </StackPanel>
+</Window>

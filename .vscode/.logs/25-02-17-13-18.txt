@@ -1,0 +1,8 @@
+25-02-17 13:18 Session started
+----------------------------------------
+13:18:15 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\SlumpaApp\MainWindow.xaml.cs
+----------------------------------------
+13:18:18 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\SlumpaApp\MainWindow.xaml
+----------------------------------------
+13:18:20 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\SlumpaApp\MainWindow.xaml.cs
+----------------------------------------

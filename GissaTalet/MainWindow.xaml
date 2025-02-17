@@ -1,0 +1,24 @@
+﻿<Window x:Class="GissaTalet.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:GissaTalet"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="250" Width="300"
+    SizeToContent="WidthAndHeight"> 
+    
+    <StackPanel Margin="20"> 
+        <Label FontSize="18" FontWeight="Bold" HorizontalAlignment="Center">Gissa ett tal mellan 1 och 100</Label>
+        <TextBox Name="txbGissning" Margin="0 5 0 5"></TextBox>
+        <Button Click="KlickaGissa" Margin="0 5 0 5" FontSize="14">Gissa!</Button>
+        <TextBox Name="txbResultat" IsReadOnly="True" Margin="0 5 0 5" Height="50"></TextBox>
+
+        <Label>Försök: </Label>
+        <TextBox Name="txbRäknare" IsReadOnly="True"></TextBox>
+        <ListBox Name="lsbFörsök"></ListBox>
+
+        <Button Click="KlickaStart">Starta om</Button>
+    </StackPanel>
+
+</Window>
