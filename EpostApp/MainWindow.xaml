@@ -1,0 +1,28 @@
+﻿<Window x:Class="EpostApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:EpostApp"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="600"
+    Background="#EEE"
+    SizeToContent="WidthAndHeight">
+
+    <StackPanel>
+        <Label Margin="10" FontSize="24" FontWeight="Bold">Medelande</Label>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10" Width="120">Ange Epostaddress</Label>
+            <TextBox Name="tbxEpost" TextChanged="ChangedEpost" Margin="10" Width="350"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10" Width="120">Ange Texten</Label>
+            <TextBox Name="tbxText" Margin="10" Width="350" Height="100" TextWrapping="WrapWithOverflow" AcceptsReturn="True" VerticalScrollBarVisibility="auto"></TextBox>
+        </StackPanel>
+    
+        <Button Click="KlickaSkicka" Margin="10 5 10 5" Height="40">Skicka</Button>
+        <Label Name="lblStatus" Margin="10 5 10 5" Background="#FFF" Foreground="#999"></Label>
+    </StackPanel>
+</Window>
