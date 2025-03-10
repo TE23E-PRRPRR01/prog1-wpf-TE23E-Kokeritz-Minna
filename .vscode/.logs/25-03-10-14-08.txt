@@ -1,0 +1,8 @@
+25-03-10 14:08 Session started
+----------------------------------------
+14:08:35 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Valapp\MainWindow.xaml.cs
+----------------------------------------
+14:09:10 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\EpostApp\App.xaml.cs
+----------------------------------------
+14:09:12 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\EpostApp\MainWindow.xaml
+----------------------------------------

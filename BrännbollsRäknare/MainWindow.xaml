@@ -1,0 +1,34 @@
+﻿<Window x:Class="BrännbollsRäknare.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:BrännbollsRäknare"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    MinHeight="350" MinWidth="370"
+    SizeToContent="WidthAndHeight"> 
+
+    <StackPanel Margin="10">
+        <Label FontSize="20">Brännbollsräknare</Label>
+
+        <StackPanel Orientation="Horizontal">
+            <Label FontSize="12">lag inne</Label>
+            <TextBox Name="tbxLagInne" FontSize="12" MinWidth="20" IsReadOnly="True"></TextBox>
+
+            <Label FontSize="12">lag ute</Label>
+            <TextBox Name="tbxLagUte" FontSize="12" MinWidth="20" IsReadOnly="True"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal">
+            <Button Click="PoängRäknare" Name="Frivarv" Margin="10" MinWidth="55">Frivarv</Button>
+            <Button Click="PoängRäknare" Name="Bränning" Margin="10" MinWidth="55">Bränning</Button>
+            <Button Click="PoängRäknare" Name="Lyra" Margin="10" MinWidth="55">Lyra</Button>
+            <Button Click="PoängRäknare" Name="Varv" Margin="10" MinWidth="55">Varv</Button>       
+        </StackPanel>
+        <Label>Historik</Label>
+        <TextBox Name="tbxHistorik" Height="120" IsReadOnly="True" VerticalScrollBarVisibility="auto"></TextBox>
+    
+    </StackPanel>
+
+</Window>

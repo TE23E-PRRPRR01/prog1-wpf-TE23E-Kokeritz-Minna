@@ -1,0 +1,4 @@
+25-03-10 13:53 Session started
+----------------------------------------
+13:54:05 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Valapp\MainWindow.xaml.cs
+----------------------------------------
