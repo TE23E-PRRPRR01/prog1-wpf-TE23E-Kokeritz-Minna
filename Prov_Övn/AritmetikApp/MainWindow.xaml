@@ -21,7 +21,7 @@
         <Label FontSize="20" FontWeight="Bold">Tal 2:</Label>
         <TextBox Name="txbTal2" Width="200"></TextBox>
 
-        <Button Width="200">Beräkna</Button>
+        <Button Click="KlickaRäkna" Width="200">Beräkna</Button>
         <Label Name="lblResultat" FontSize="15"></Label>
     </StackPanel>
 </Window>

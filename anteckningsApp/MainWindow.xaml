@@ -1,0 +1,27 @@
+﻿<Window x:Class="anteckningsApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:anteckningsApp"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    SizeToContent="WidthAndHeight">
+    <StackPanel Margin="10">
+        <Label FontSize="30" Margin="10">Anteckningsbok</Label>
+
+        <StackPanel Orientation="Horizontal">
+            <Label Margin="10">Ange en text</Label>
+            <TextBox Name="txbInput" Width="300" Margin="10"></TextBox>
+        </StackPanel>
+
+        <StackPanel Orientation="Horizontal" HorizontalAlignment="center">
+            <Button Click="KlickaSkicka" Margin="10" Width="100">Skicka</Button>
+            <Button Click="KlickaSpara" Margin="10" Width="100">Spara</Button>
+            <Button Click="KlickaRensa" Margin="10" Width="100">Rensa</Button>
+        </StackPanel>
+        
+
+        <TextBox Name="txbNote" Height="170" IsReadOnly="True"></TextBox>
+    </StackPanel>
+</Window>

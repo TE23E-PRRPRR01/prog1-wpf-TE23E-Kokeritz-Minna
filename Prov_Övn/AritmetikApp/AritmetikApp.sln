@@ -1,0 +1,30 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.2.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AritmetikApp", "AritmetikApp.csproj", "{F856158F-2E90-A759-DA3A-014DE608DEAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AritmetikApp_rybilddz_wpftmp", "AritmetikApp_rybilddz_wpftmp.csproj", "{58E2FC41-375B-C2D8-5D7F-8CAF4C8093C3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F856158F-2E90-A759-DA3A-014DE608DEAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F856158F-2E90-A759-DA3A-014DE608DEAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F856158F-2E90-A759-DA3A-014DE608DEAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F856158F-2E90-A759-DA3A-014DE608DEAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{58E2FC41-375B-C2D8-5D7F-8CAF4C8093C3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{58E2FC41-375B-C2D8-5D7F-8CAF4C8093C3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{58E2FC41-375B-C2D8-5D7F-8CAF4C8093C3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{58E2FC41-375B-C2D8-5D7F-8CAF4C8093C3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {575B862F-852A-462B-AA02-3C5F08035ACA}
+	EndGlobalSection
+EndGlobal

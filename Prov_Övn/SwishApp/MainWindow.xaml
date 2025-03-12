@@ -1,0 +1,25 @@
+﻿<Window x:Class="SwishApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:SwishApp"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    MinWidth="240"
+    Background="#EEE"
+    SizeToContent="WidthAndHeight"> 
+
+    <StackPanel Margin="10" Background="#CCC">
+        <Label FontSize="30" FontWeight="Bold">SWISH</Label>
+        <Label FontSize="16" FontWeight="Bold">KontoBalans:</Label>
+        <TextBox Name="txbBalans" FontSize="16" IsReadOnly="True"></TextBox>
+
+        <Label FontSize="16" FontWeight="Bold">Önskat Belopp:</Label>
+        <TextBox Name="txbBelopp" FontSize="16" ></TextBox>
+
+        <Button Click="KlickaSwisha">SWISHA</Button>
+        <Label Name="lblStatus" FontWeight="Bold" ></Label>
+
+    </StackPanel>    
+</Window>
