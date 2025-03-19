@@ -1,0 +1,37 @@
+﻿<Window x:Class="luffarschack.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:local="clr-namespace:luffarschack"
+    mc:Ignorable="d"
+    Title="MainWindow" Height="450" Width="800"
+    SizeToContent="WidthAndHeight"> 
+
+    <StackPanel>
+    <StackPanel Orientation="Horizontal">
+        <Button Name="b1" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60" >.</Button>
+        <Button Name="b2" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60" >.</Button>
+        <Button Name="b3" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60" >.</Button>
+    </StackPanel>
+    
+    <StackPanel Orientation="Horizontal">
+        <Button Name="b4" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+        <Button Name="b5" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+        <Button Name="b6" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+    </StackPanel>
+        
+    <StackPanel Orientation="Horizontal">
+        <Button Name="b7" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+        <Button Name="b8" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+        <Button Name="b9" Click="KlickKnapp" Width="120" Height="120" Background="#EEE" FontSize="60">.</Button>
+    </StackPanel>
+
+    <StackPanel Orientation="Horizontal">
+        <Button Click="Restart" Margin="2" FontSize="15" Width="150">RESTART</Button> 
+        <TextBox Name="poängX" Margin="2" FontSize="15" Width="80">Player X:  </TextBox>
+        <TextBox Name="poängO" Margin="2" FontSize="15" Width="80">Player O: </TextBox>
+    </StackPanel>
+
+    </StackPanel>    
+</Window>

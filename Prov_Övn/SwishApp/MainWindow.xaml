@@ -7,10 +7,11 @@
     mc:Ignorable="d"
     Title="MainWindow" Height="450" Width="800"
     MinWidth="240"
-    Background="#EEE"
+    Background="#DDD"
+
     SizeToContent="WidthAndHeight"> 
 
-    <StackPanel Margin="10" Background="#CCC">
+    <StackPanel Margin="10" Background="#EEE">
         <Label FontSize="30" FontWeight="Bold">SWISH</Label>
         <Label FontSize="16" FontWeight="Bold">KontoBalans:</Label>
         <TextBox Name="txbBalans" FontSize="16" IsReadOnly="True"></TextBox>

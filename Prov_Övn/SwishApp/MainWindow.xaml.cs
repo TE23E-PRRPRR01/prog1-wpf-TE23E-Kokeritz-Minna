@@ -27,7 +27,6 @@ public partial class MainWindow : Window
     {
         if (txbBelopp.Text != "" && int.TryParse(txbBelopp.Text, out int belopp) && belopp > 0)
         {
-            this.Background = Brushes.AliceBlue;
             lblStatus.Content = "";
             if (belopp < balans)
             {

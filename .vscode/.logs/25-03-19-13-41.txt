@@ -1,0 +1,17 @@
+25-03-19 13:41 Session started
+----------------------------------------
+14:11:58 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Klapp App\MainWindow.xaml
+----------------------------------------
+14:12:08 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Klapp App\MainWindow.xaml.cs
+----------------------------------------
+14:31:01 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\AreaApp\App.xaml.cs
+----------------------------------------
+14:31:03 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\AreaApp\MainWindow.xaml
+----------------------------------------
+14:31:03 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\AreaApp\MainWindow.xaml.cs
+----------------------------------------
+14:31:13 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Bakgrundfärg\MainWindow.xaml.cs
+----------------------------------------
+14:31:24 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Eventhantering\MainWindow.xaml.cs
+----------------------------------------
+14:31:31 026:006 > MessageBox.Show("Du klickade på OK");

@@ -31,6 +31,6 @@
             <ListBox Name="lstJulklappar" Height="120" Margin="5"></ListBox>
         </StackPanel>
 
-        <TextBox Name="txbStatus" FontStyle="Italic" Background="#EFEFEF" Margin="15" Padding="5"></TextBox>
+        <TextBox Name="txbStatus" FontStyle="Italic" Background="#EFEFEF" Margin="15" Padding="5" IsReadOnly="True"></TextBox>
     </StackPanel>
 </Window>
