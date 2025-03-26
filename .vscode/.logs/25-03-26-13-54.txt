@@ -1,0 +1,4 @@
+25-03-26 13:54 Session started
+----------------------------------------
+13:54:08 Document switched to: c:\Users\minna.kokeritz\github-classroom\prog1-wpf-TE23E-Kokeritz-Minna\Eventhantering\MainWindow.xaml.cs
+----------------------------------------
