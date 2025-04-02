@@ -15,6 +15,7 @@
         <TextBox Name="txbFilNamn" Width="500" Margin="5"></TextBox>
 
         <Button Click="KlickÖppna">Öppna</Button>
+        <Button Click="KlickFilÖppna">Öppna dialog</Button>
         <TextBox
             Name="txbResult" Margin="5" Height="150" Background="#FFF"
             FontStyle="italic" TextWrapping="WrapWithOverflow"

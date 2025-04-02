@@ -9,6 +9,7 @@ using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
 using System.Windows.Shapes;
+using Microsoft.Win32;
 
 namespace upp_4;
 
@@ -28,5 +29,11 @@ public partial class MainWindow : Window
         else  {
             txbResult.Text = File.ReadAllText(txbFilNamn.Text);
         }
+    }
+
+    private void KlickFilÖppna(object sender, RoutedEventArgs e)
+    {
+        OpenFileDialog openFileDialog = new OpenFileDialog();
+        if(openFileDialog.ShowDialog() == true) txbResult.Text = File.ReadAllText(openFileDialog.FileName);
     }
 }
