@@ -23,8 +23,7 @@ public partial class MainWindow : Window
 
     private void KlickRäkna(object sender, RoutedEventArgs e)
     {
-        if(!double.TryParse(txbTal1.Text, out double tal1)) txbReusltat.Text = "Tal 1 måste vara ett tal";
-        else if(!double.TryParse(txbTal2.Text, out double tal2)) txbReusltat.Text= "Tal 2 måste vara ett tal";
+        if(!double.TryParse(txbTal1.Text, out double tal1) || !double.TryParse(txbTal2.Text, out double tal2)) MessageBox.Show("Felaktig inmatning.\nFormatera talen som tex 12 eller 12,5");
         else {
 
             if(sender == plus) txbReusltat.Text = $"{tal1} + {tal2} = {tal1 + tal2}";
